@@ -12,6 +12,8 @@
     <% } else { %>
     <nav>
         <a href="<%= request.getContextPath() %>/logout">로그아웃</a>
+        <a href="<%= request.getContextPath() %>/content/free">무료</a>
+        <a href="<%= request.getContextPath() %>/content/premium">프리미엄</a>
     </nav>
     <% } %>
     <section>
